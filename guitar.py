@@ -58,7 +58,7 @@ class NoteDetector(QObject):
                 self.buf[-self.FRAME_SIZE:] = np.frombuffer(self.stream.read(self.FRAME_SIZE), np.int16)
 
                 fft = np.fft.rfft(self.buf * self.window)
-                fft -= self.noise_profile
+              
                 freq = (np.abs(fft[self.imin:self.imax]).argmax() + self.imin) * self.FREQ_STEP
                 
                 

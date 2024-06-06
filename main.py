@@ -69,8 +69,8 @@ class Ui_MainWindow(object):
 
     def setupLabels(self):
         label_names = ["label_2", "label_3", "label_4", "label_5", "label_6", "label_7"]
-        label_positions = [(20, 40), (20, 70), (20, 110), (20, 140), (20, 170), (20, 200)]
-        label_texts = ["1. String", "2. String", "3. String", "4. String", "5. String", "6. String"]
+        label_positions = [(60, 40), (60, 70), (60, 110), (60, 140), (60, 170), (60, 200)]
+        label_texts = ["1.", "2.", "3.", "4.", "5.", "6."]
 
         for name, position, text in zip(label_names, label_positions, label_texts):
             label = QtWidgets.QLabel(self.bottom_frame)
@@ -138,7 +138,7 @@ class Ui_MainWindow(object):
         self.bos_note.setObjectName("bos_note")
 
         self.bos_note2= QtWidgets.QLabel(self.top_frame)
-        self.bos_note2.setGeometry(QtCore.QRect(300, 0, 1101, 301))
+        self.bos_note2.setGeometry(QtCore.QRect(350, 0, 1101, 301))
         self.bos_note2.setText("")
         self.bos_note2.setPixmap(QtGui.QPixmap(self.resource_path("image/bos_note.png")))
         self.bos_note2.setScaledContents(False)
