@@ -61,12 +61,12 @@ class NoteDetector(QObject):
                 fft -= self.noise_profile
                 freq = (np.abs(fft[self.imin:self.imax]).argmax() + self.imin) * self.FREQ_STEP
                 
-                # Calculate the dB value
+                
                 
                
                 position = self.frequency_to_position(freq)
                 if position:
-                    self.note_detected.emit(position)  # Emit the signal with the detected position
+                    self.note_detected.emit(position)  
                    
         except IOError as e:
             print(f"Error reading from stream: {e}")
