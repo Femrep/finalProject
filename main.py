@@ -53,7 +53,7 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(self.bottom_frame)
         self.label.setGeometry(QtCore.QRect(70, 20, 981, 221))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap(self.resource_path("image/fred2_0.png")))
+        self.label.setPixmap(QtGui.QPixmap(self.resource_path("image/empty_fret.png")))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
 
@@ -69,7 +69,7 @@ class Ui_MainWindow(object):
 
     def setupLabels(self):
         label_names = ["label_2", "label_3", "label_4", "label_5", "label_6", "label_7"]
-        label_positions = [(60, 40), (60, 70), (60, 110), (60, 140), (60, 170), (60, 200)]
+        label_positions = [(60, 50), (60, 75), (60, 100), (60, 125), (60, 150), (60, 175)]
         label_texts = ["1.", "2.", "3.", "4.", "5.", "6."]
 
         for name, position, text in zip(label_names, label_positions, label_texts):
