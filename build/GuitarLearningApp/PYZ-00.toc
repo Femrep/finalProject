@@ -192,8 +192,8 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\bisect.py',
    'PYMODULE'),
-  ('buttonHandler',
-   'C:\\Users\\emre3\\OneDrive\\Masaüstü\\pyqt5\\buttonHandler.py',
+  ('button_handler',
+   'C:\\Users\\emre3\\OneDrive\\Masaüstü\\pyqt5\\button_handler.py',
    'PYMODULE'),
   ('bz2',
    'C:\\Program '
@@ -390,9 +390,6 @@
   ('glob',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\glob.py',
-   'PYMODULE'),
-  ('guitar',
-   'C:\\Users\\emre3\\OneDrive\\Masaüstü\\pyqt5\\guitar.py',
    'PYMODULE'),
   ('gzip',
    'C:\\Program '
@@ -650,8 +647,11 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py',
    'PYMODULE'),
-  ('noteMapper',
-   'C:\\Users\\emre3\\OneDrive\\Masaüstü\\pyqt5\\noteMapper.py',
+  ('note_detector',
+   'C:\\Users\\emre3\\OneDrive\\Masaüstü\\pyqt5\\note_detector.py',
+   'PYMODULE'),
+  ('note_mapper',
+   'C:\\Users\\emre3\\OneDrive\\Masaüstü\\pyqt5\\note_mapper.py',
    'PYMODULE'),
   ('nturl2path',
    'C:\\Program '
@@ -1162,6 +1162,9 @@
   ('typing',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\typing.py',
+   'PYMODULE'),
+  ('ui_main_window',
+   'C:\\Users\\emre3\\OneDrive\\Masaüstü\\pyqt5\\ui_main_window.py',
    'PYMODULE'),
   ('unittest',
    'C:\\Program '
